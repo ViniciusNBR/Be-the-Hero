@@ -7,7 +7,7 @@ const sessionController = require('./controllers/sessionController')
 
 const routes = express.Router()
 
-routes.post('/session', sessionController.create)
+routes.post('/sessions', sessionController.create)
 
 routes.get('/ongs', ongController.index)
 routes.get('/incidents', incidentController.index)
